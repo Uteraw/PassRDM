@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassRDM</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <div class="container">
+        <a class="sideimg" href="mailto:beagle.teamdev@gmail.com"><img src="img/Gmail_icon_(2020).svg.png" width="30px"></a>
+        <h1 class="title">PassRDM</h1>
+        <p class="sa">上記のMailアイコンから開発者に連絡が可能です、今後実装してほしい機能やサポート内容を送信してください</p>
+        <div>
+            <label for="length">桁の量を設定：</label>
+            <input type="number" id="length" min="4" max="32" value="8">
+        </div>
+        <div>
+            <label for="strength">パスワードの強度を選択：</label>
+            <select id="strength">
+                <option value="easy">イージー - 最も簡単</option>
+                <option value="medium">ミディアム - 少し強い</option>
+                <option value="hard">ハード - 最も強い</option>
+            </select>
+        </div>
+        <div>
+            <label for="useNumbers">数字の使用（任意）：</label>
+            <input type="checkbox" id="useNumbers" checked>
+        </div>
+        <div>
+            <label for="useUppercase">大文字の使用（任意）：</label>
+            <input type="checkbox" id="useUppercase" checked>
+        </div>
+        <button id="generate">生成</button>
+        <div id="password">Result</div>
+    </div>
+    
+    <script src="js/client.js"></script>
+</body>
+</html>

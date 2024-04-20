@@ -1,0 +1,86 @@
+
+
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    background-image: url();
+  }
+  
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    .sideimg{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .title{
+        display: inline-block;
+        width: 400px;
+        margin-left: 15px;
+    }
+}
+
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #dfdfdf;
+  }
+  .sa{
+    color: #dfdfdf;
+    padding: 0px 0px 10px 0px;
+  }
+
+  
+  input[type='number'],
+  select,
+  input[type='checkbox'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #376ead;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #24548a;
+  }
+  
+  #password {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+    background-color: rgb(218, 218, 218);
+  }
+
+
+  
